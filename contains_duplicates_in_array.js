@@ -11,7 +11,6 @@
  */
 const containsDuplicates = (arr) => {
    let freqMap = arrFreqMap(arr);
-   console.log("freq map ", freqMap);
    for(let ele of arr) {
        console.log(ele , freqMap[ele]);
        if(freqMap[ele] > 1) {
